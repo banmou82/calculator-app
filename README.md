@@ -1,16 +1,108 @@
-# React + Vite
+# 🧮 Calculator App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and interactive **Calculator Application** built with **React** that allows users to perform basic arithmetic operations easily. The app is designed with a clean UI and smooth user experience, similar in structure and presentation to the **Posts App** project.
 
-Currently, two official plugins are available:
+🔗 **Live Demo:** [https://calculator-app-pi-eight-55.vercel.app/](https://calculator-app-pi-eight-55.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 About the Project
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+This Calculator App is a beginner‑friendly React project focused on understanding component structure, state management, and user interactions. It provides a practical example of building a functional UI using React.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Features
+
+* Perform basic calculations (Addition, Subtraction, Multiplication, Division)
+* Clear / Reset calculator input
+* Simple and clean user interface
+* Responsive design for all screen sizes
+* Fast performance with Vite
+
+---
+
+## 🛠️ Built With
+
+* **React**
+* **JavaScript (ES6)**
+* **HTML5**
+* **CSS / SCSS**
+* **Vite**
+
+---
+
+## 📂 Folder Structure
+
+```
+calculator-app/
+├── src/
+│   ├── components/
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── styles.css
+├── public/
+├── package.json
+└── README.md
+```
+
+---
+
+## ⚙️ Getting Started
+
+Follow these steps to run the project locally:
+
+### 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/your-username/calculator-app.git
+cd calculator-app
+```
+
+### 2️⃣ Install Dependencies
+
+```bash
+npm install
+```
+
+### 3️⃣ Start the Development Server
+
+```bash
+npm run dev
+```
+
+Visit the app at:
+
+```
+http://localhost:5173
+```
+
+---
+
+## 📦 Build for Production
+
+```bash
+npm run build
+```
+
+---
+
+## 🌍 Deployment
+
+This project is deployed on **Vercel**, ensuring fast load times and reliable hosting.
+
+---
+
+## 📸 Preview
+
+A minimal calculator interface designed for everyday calculations.
+
+---
+
+## 👩‍💻 Author
+
+**Moumita Banerjee**
+
+---
+
+⭐ If you like this project, feel free to give it a star!
